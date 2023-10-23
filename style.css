@@ -1,0 +1,12 @@
+body
+{
+    background-color: #FFB800;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+}
+.logo
+{
+    height: 300px;
+    width: 300px;
+}
