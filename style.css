@@ -2,14 +2,42 @@ body
 {
     background-color: #FFB800;
     display: grid;
-    grid-template-columns:  1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns:  354px 1fr 1fr;
+    grid-template-rows: 323px 1fr 1fr;
     margin:0px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav
+{
+        border-right: solid red 8px;
 }
 .logo
 {
     height: 320px;
     width: 350px;
-    border-right: solid red 8px;
     border-bottom: solid red 8px;
+}
+
+
+.links
+{
+    display: flex;
+    color: red; 
+    font-size: 30px;     
+    margin-top: 145px;
+    padding-left: 36px;
+    justify-content: space-between;
+    
+    
+}
+
+.ingridienser
+{
+    display: grid;
+    color: red; 
+    font-size: 23px; 
+    font-family: Inter; 
+    font-weight: 100; 
+    word-wrap: break-word;
 }
