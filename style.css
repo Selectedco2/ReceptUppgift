@@ -38,16 +38,14 @@ body
 
 .ingridienser
 {
-    display: grid;
     color: red; 
     font-size: 23px; 
-    word-wrap: break-word;
     align-items: center;
+    border-right: solid red 8px;
 }
 
 a
 {
     color: red;
     text-decoration: none;
-    font-family:
 }
