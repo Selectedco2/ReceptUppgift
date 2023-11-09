@@ -2,28 +2,36 @@ body
 {
     background-color: #FFB800;
     display: grid;
-    grid-template-columns:  354px 1fr;
-    grid-template-rows: 323px 1fr 1fr;
-    margin:0px;
+    grid-template-columns:  354px 1fr 1fr;
+    grid-template-rows: 323px 1fr;
+    margin: 0px;
     font-family: Georgia, Times, 'Times New Roman', serif;
+    color: red;
+
 }
 
-.nav
+aside
 {
+    grid-column: 1/2;
+    grid-row: 2/3;
     border-right: solid red 8px;
 }
 
 .logo
 {
+    grid-column: 1/2;
+    grid-row: 1/2;
     height: 320px;
     width: 350px;
     border-bottom: solid red 8px;
+    border-right: solid red 8px;
 }
 
 
-.links
+nav
 {
     display: flex;
+    grid-column: 2/4;
     color: red; 
     font-size: 30px;     
     margin-bottom: -4.5px;  
@@ -32,16 +40,14 @@ body
     justify-content: space-between;
     border-bottom: solid red 8px;
     align-items: center;
-    
-    
 }
 
-.ingridienser
+li
 {
     color: red; 
     font-size: 23px; 
     align-items: center;
-    border-right: solid red 8px;
+    margin-bottom: 45px ;
 }
 
 a
