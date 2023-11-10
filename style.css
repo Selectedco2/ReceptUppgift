@@ -63,15 +63,46 @@ a
     grid-column: 2/3;
     padding-top: 5px;
     height: 611px;
-    width: 745px;
+    width: 744px;
     border-right: solid red 8px;
 }
 .Ingredienser
 {
     height: 611px;
-    width: 772px;
+    width: 758.5px;
     grid-row: 2/3;
     grid-column: 3/4;
     padding-top: 5px;
     
+}
+
+.låda
+{
+    
+    grid-row: 2/3;
+    grid-column: 2/3;
+    background-color: #FFB800;
+    margin-top: 12%;
+    margin-right: 25%;
+    margin-left: 25%;
+    padding-top: 40px;
+    padding-right: 6px;
+    margin-bottom: 5%;
+    border: solid red 8px;
+}
+
+.låda2
+{
+    
+    grid-row: 2/3;
+    grid-column: 3/4;
+    background-color: #FFB800;
+    margin-top: 12%;
+    margin-right: 25%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    padding-right: 6px;
+    padding-top: 60px;
+    padding-left: 15px;
+    border: solid red 8px;
 }
